@@ -1,0 +1,47 @@
+#Technologies I'll be using
+#1. MERN Stack
+#2. React Front End
+#3. React Router Dom for navigation
+#4. Formik + yup for form validation
+#5. Redux toolkit for state management
+#6. React dropzone for image uploads
+#7. Multer for file uploads
+#Using images from unsplash.com, where I found free images
+#body-parser is an install meant to help process the request body, bcyrpt is for password encryption, dotenv is for environment variables, gridfs-streams is for file uploads, multer and multer-gridfs-storage are for uploading files locally, helmet is for request safety, morgan for logging, jsonwebtoken for authetication
+
+#Within package.json I added a line called   "type": "module", 
+#This is so we can use import statements instead of require statements
+
+#Using a jwt (verifyToken)
+
+#index.js within the data folder is filled with mock data for testing purposes
+
+
+#On the front end, these are my installs:
+#react-redux => state management, @reduxjs/toolkit -> wrapper around redux that makes redux easy to use, redux-persist -> actively save to our local storage/local state so info is still in the browser, react-dropzone handles files which can be sent from the front end to the backend, dotenv for environment variables, formik -> form validations, yup, react-router-dom@6, @mui/material @emotion/react @emotion/styled @mui/icons-material
+
+#I have a bug with the likes and comments for each post, for some reason they are not working
+
+# dependencies
+/client/node_modules
+/server/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+/server/.env
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
