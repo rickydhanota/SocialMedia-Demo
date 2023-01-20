@@ -17,3 +17,4 @@ Features I tried to Incorporate:
 
 Issues I faced: 
 - I have a bug with the likes and comments for each post, for some reason they are not working and this is causing the whole app to crash
+- I have issues with submitting my register form 
